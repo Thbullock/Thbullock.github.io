@@ -1,0 +1,86 @@
+
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #004B87; /* Aggie Blue background */
+    color: #FFC72C; /* Gold text color */
+}
+
+
+header {
+    background-color: #004B87; /* Aggie Blue */
+    color: #FFC72C; /* Gold text color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #003057; /* Darker blue for nav */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFC72C; /* Gold text color */
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+
+main {
+    padding: 40px; 
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #003057; /* Darker Blue background for main content */
+    color: #FFC72C; /* Gold text for main content */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* shadow effect */
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #FFC72C; /* Gold headings */
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+
+footer {
+    background-color: #004B87; /* Aggie Blue */
+    color: #FFC72C; /* Gold text color */
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #FFC72C; /* Gold text color */
+}
